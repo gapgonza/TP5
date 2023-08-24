@@ -75,7 +75,8 @@ public class CargaView extends javax.swing.JFrame {
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(38, 147, -1, -1));
         jPanel1.add(jtPrecio, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 144, 91, -1));
 
-        jbAgregar.setForeground(new java.awt.Color(255, 255, 255));
+        jbAgregar.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jbAgregar.setForeground(new java.awt.Color(0, 0, 0));
         jbAgregar.setText("Agregar");
         jbAgregar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -99,7 +100,7 @@ public class CargaView extends javax.swing.JFrame {
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 218, 392, 168));
 
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setForeground(new java.awt.Color(255, 0, 51));
         jButton1.setText("Eliminar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
